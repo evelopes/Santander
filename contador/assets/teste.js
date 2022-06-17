@@ -4,12 +4,12 @@ var currentNumber = Number(currentNumberWrapper.textContent);
 
 
 function increment(){
-    currentNumber = currentNumber + 1;
+    currentNumber += 1;
     currentNumberWrapper.innerHTML = currentNumber;
     emaior()   
 }
 function decrement(){
-    currentNumber = currentNumber - 1;
+    currentNumber -= 1;
     currentNumberWrapper.innerHTML = currentNumber;
     emaior()   
 }
