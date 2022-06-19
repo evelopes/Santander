@@ -35,6 +35,7 @@ h1 {
 p{
     flex-wrap: wrap;
     font-family: 'Roboto Mono', monospace;
+    font-weight:200;
 }
 
 .icon{
