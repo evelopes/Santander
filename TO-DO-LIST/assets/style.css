@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+
+input{
+    margin: 5px;
+}
+
+label + input:checked  {
+    text-decoration: line-through;
+}
+
+h1 {
+    font-family: 'Secular One', sans-serif;
+    text-align: center;
+}
+
+p{
+    flex-wrap: wrap;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.icon{
+    width: 5%;
+}
+
+#dica{
+    font-size: 0.8em;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+}
+
+@media screen and (max-width: 393px){
+    article {
+        width: 90%;
+        padding-bottom: 5%;
+    }
+    
+}
